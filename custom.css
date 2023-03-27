@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(163, 112, 211);
+    color: black;
+}
+
+.title{
+    color: red;
+    /* margin: auto; */
+    margin-top: 60px;
+    padding-left: 500px;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+form{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form #search{
+    margin-top: 152px;
+    font-size: 24px;
+    width: 445px;
+    height: 60px;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+main{
+    width: 70vw;
+    margin: auto;
+    background-color: rgb(184, 163, 204);
+    margin-top: 65px;
+    border-radius: 20px;
+    /* width: 600px;
+    height: 600px; */
+}
+
+#imgdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.avatar{
+    margin: auto;
+    width: 100px;
+    /* height: 70px; */
+    border-radius: 50%;
+}
+
+.card{
+    display: flex;
+    padding: 30px;
+}
+
+.user-info{
+ padding-left: 30px ;
+}
+
+.info{
+    list-style: none;
+    display: flex;
+}
+.info li{
+    margin-right: 30px;
+}
+#repos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.repo{
+    margin: 5px 15px 0 0;
+    padding: 5px;
+    background-color: rgb(227, 247, 240);
+    border-radius: 5px;
+}
